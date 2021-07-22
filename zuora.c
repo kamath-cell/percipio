@@ -63,4 +63,5 @@ int main(int argc, char const *argv[])
 	printf("%d   %d\n\n",ways(20,7),numberOfWaysForSum(20,7));
 	printf("%d   %d\n\n",ways(200,30),numberOfWaysForSum(200,30));
 	return 0;
+	return 0;
 }
