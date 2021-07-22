@@ -4,6 +4,7 @@ int numberOfWaysForSum(int,int);
 
 int ways(int t,int k)
 {
+	int a;
 	int M = 1000000007,W[t+1][k+1],i,j,m;
 	for(j=1;j<=k;j++)
 		W[0][j] = 1;
